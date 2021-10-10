@@ -26,7 +26,7 @@
             "Core.SkipPolicy": false,
             "Core.SkipResource": true,
             "Core.SkipResourceGroup": false,
-            "Core.SkipRole": false,
+            "Core.SkipRole": true,
             "Core.SubscriptionsToIncludeResourceGroups": "*",
             "Core.TemplateParameterFileSuffix": ".json",
             "Core.ThrottleLimit": 10
