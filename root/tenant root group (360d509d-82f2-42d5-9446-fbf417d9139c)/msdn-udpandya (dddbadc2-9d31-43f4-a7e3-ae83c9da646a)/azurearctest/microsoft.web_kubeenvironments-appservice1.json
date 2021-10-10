@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "AzOps"
+    }
+  },
+  "parameters": {},
+  "variables": {},
+  "resources": [
+    {
+      "type": "Microsoft.Web/kubeEnvironments",
+      "name": "appservice1",
+      "apiVersion": "2021-02-01",
+      "location": "East US",
+      "tags": {},
+      "properties": {
+        "type": null,
+        "extendedLocation": null,
+        "deploymentErrors": "Error when checking initialize status of K8SE stamp with kubectl Error running kubectl.exe get pods -n appservice1 -o=jsonpath=\"{range.items[*]}{.metadata.name},{.status.phase} \"\r\noutput: \r\n\r\nerror: Error from server (InternalError): an error on the server (\"{\\\"apiVersion\\\":\\\"v1\\\",\\\"code\\\":502,\\\"kind\\\":\\\"Status\\\",\\\"message\\\":\\\"Cluster connect agent is not running to accept requests\\\",\\\"reason\\\":\\\"BadGateway\\\",\\\"status\\\":\\\"Failure\\\"}\") has prevented the request from succeeding (get pods)\r\n\r\n",
+        "internalLoadBalancerEnabled": false,
+        "defaultDomain": "appservice1-b7up9klvum43.eastus.k4apps.io",
+        "staticIp": "82.16.232.158",
+        "arcConfiguration": {
+          "artifactsStorageType": "NetworkFileSystem",
+          "artifactStorageClassName": "default",
+          "artifactStorageMountPath": null,
+          "artifactStorageNodeName": null,
+          "artifactStorageAccessMode": null,
+          "frontEndServiceConfiguration": {
+            "kind": "LoadBalancer"
+          },
+          "kubeConfig": null
+        },
+        "appLogsConfiguration": null,
+        "workerAppsConfiguration": null,
+        "aksResourceID": null
+      }
+    }
+  ],
+  "outputs": {}
+}
