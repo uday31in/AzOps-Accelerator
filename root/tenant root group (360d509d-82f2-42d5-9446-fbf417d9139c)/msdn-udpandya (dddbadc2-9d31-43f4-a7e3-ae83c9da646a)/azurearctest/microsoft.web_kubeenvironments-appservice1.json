@@ -12,7 +12,7 @@
     {
       "type": "Microsoft.Web/kubeEnvironments",
       "name": "appservice1",
-      "apiVersion": "2021-02-01",
+      "apiVersion": "2021-03-01",
       "location": "East US",
       "tags": {},
       "properties": {
