@@ -12,7 +12,7 @@
     {
       "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
       "name": "git-azOpsRg-umi",
-      "apiVersion": "2021-09-30-PREVIEW",
+      "apiVersion": "2018-11-30",
       "location": "northeurope",
       "tags": {},
       "properties": {
