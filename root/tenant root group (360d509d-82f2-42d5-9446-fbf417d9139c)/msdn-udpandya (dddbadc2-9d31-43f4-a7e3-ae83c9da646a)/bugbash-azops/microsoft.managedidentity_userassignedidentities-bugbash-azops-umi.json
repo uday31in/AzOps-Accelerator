@@ -12,7 +12,7 @@
     {
       "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
       "name": "bugbash-AzOps-umi",
-      "apiVersion": "2018-11-30",
+      "apiVersion": "2021-09-30-PREVIEW",
       "location": "northeurope",
       "tags": {},
       "properties": {
