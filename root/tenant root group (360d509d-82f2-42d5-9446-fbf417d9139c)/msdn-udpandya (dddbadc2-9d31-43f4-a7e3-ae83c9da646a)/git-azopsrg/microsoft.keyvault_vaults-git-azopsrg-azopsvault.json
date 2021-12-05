@@ -12,7 +12,7 @@
     {
       "type": "Microsoft.KeyVault/vaults",
       "name": "git-azOpsRg-azopsvault",
-      "apiVersion": "2021-06-01-preview",
+      "apiVersion": "2021-11-01-preview",
       "location": "northeurope",
       "tags": {},
       "properties": {
@@ -25,7 +25,8 @@
         "enabledForDeployment": false,
         "enabledForTemplateDeployment": true,
         "enableSoftDelete": true,
-        "enableRbacAuthorization": true
+        "enableRbacAuthorization": true,
+        "publicNetworkAccess": "Enabled"
       }
     }
   ],
