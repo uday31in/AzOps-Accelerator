@@ -12,7 +12,7 @@
     {
       "type": "Microsoft.KeyVault/vaults",
       "name": "bugbash-AzOps-azpbaypcyf",
-      "apiVersion": "2021-11-01-preview",
+      "apiVersion": "2021-06-01-preview",
       "location": "northeurope",
       "tags": {},
       "properties": {
@@ -26,8 +26,7 @@
         "enabledForTemplateDeployment": true,
         "enableSoftDelete": true,
         "enableRbacAuthorization": true,
-        "enablePurgeProtection": true,
-        "publicNetworkAccess": "Enabled"
+        "enablePurgeProtection": true
       }
     }
   ],
