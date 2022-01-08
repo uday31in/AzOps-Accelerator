@@ -12,7 +12,7 @@
     {
       "type": "microsoft.operationalinsights/workspaces",
       "name": "bugbash-la-dddbadc2-9d31-43f4-a7e3-ae83c9da646a",
-      "apiVersion": "2021-12-01-preview",
+      "apiVersion": "2021-06-01",
       "location": "northeurope",
       "tags": null,
       "properties": {
