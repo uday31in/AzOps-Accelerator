@@ -17,8 +17,7 @@
       "identity": {
         "PrincipalId": "ca8599fd-4017-4cea-98f9-215164a07c7d",
         "TenantId": "360d509d-82f2-42d5-9446-fbf417d9139c",
-        "IdentityType": "SystemAssigned",
-        "UserAssignedIdentities": null
+        "Type": "SystemAssigned"
       },
       "properties": {
         "Scope": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a",
