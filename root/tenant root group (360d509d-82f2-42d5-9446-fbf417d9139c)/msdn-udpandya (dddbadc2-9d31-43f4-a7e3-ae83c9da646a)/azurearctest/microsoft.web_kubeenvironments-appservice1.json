@@ -17,6 +17,7 @@
       "tags": {},
       "properties": {
         "type": null,
+        "environmentType": null,
         "extendedLocation": null,
         "deploymentErrors": "Error when checking initialize status of K8SE stamp with kubectl Error running kubectl.exe get pods -n appservice1 -o=jsonpath=\"{range.items[*]}{.metadata.name},{.status.phase} \"\r\noutput: \r\n\r\nerror: Error from server (InternalError): an error on the server (\"{\\\"apiVersion\\\":\\\"v1\\\",\\\"code\\\":502,\\\"kind\\\":\\\"Status\\\",\\\"message\\\":\\\"Cluster connect agent is not running to accept requests\\\",\\\"reason\\\":\\\"BadGateway\\\",\\\"status\\\":\\\"Failure\\\"}\") has prevented the request from succeeding (get pods)\r\n\r\n",
         "internalLoadBalancerEnabled": false,
