@@ -12,7 +12,7 @@
     {
       "type": "Microsoft.Storage/storageAccounts",
       "name": "csb10032000d076a53c",
-      "apiVersion": "2021-08-01",
+      "apiVersion": "2021-09-01",
       "location": "westeurope",
       "tags": {
         "ms-resource-usage": "azure-cloud-shell"
