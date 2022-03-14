@@ -16,7 +16,6 @@
       "location": "northeurope",
       "tags": null,
       "properties": {
-        "source": "Azure",
         "customerId": "07825f32-cfab-45d6-983c-09d4ca1a3cba",
         "sku": {
           "name": "pergb2018"
