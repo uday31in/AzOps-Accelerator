@@ -24,6 +24,7 @@
         "subnets": [
           {
             "name": "default",
+            "id": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourceGroups/network/providers/Microsoft.Network/virtualNetworks/vnet/subnets/default",
             "properties": {
               "addressPrefix": "10.0.0.0/24",
               "delegations": [],
@@ -34,6 +35,7 @@
           },
           {
             "name": "portal",
+            "id": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourceGroups/network/providers/Microsoft.Network/virtualNetworks/vnet/subnets/portal",
             "properties": {
               "addressPrefix": "10.0.1.0/24",
               "serviceEndpoints": [],
@@ -45,6 +47,7 @@
           },
           {
             "name": "oob-network",
+            "id": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourceGroups/network/providers/Microsoft.Network/virtualNetworks/vnet/subnets/oob-network",
             "properties": {
               "addressPrefix": "10.0.2.0/24",
               "serviceEndpoints": [],
