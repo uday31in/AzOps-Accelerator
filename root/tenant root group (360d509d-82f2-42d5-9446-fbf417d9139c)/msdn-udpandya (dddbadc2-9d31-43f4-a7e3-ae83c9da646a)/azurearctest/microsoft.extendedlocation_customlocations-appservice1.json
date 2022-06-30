@@ -12,7 +12,7 @@
     {
       "type": "microsoft.extendedlocation/customlocations",
       "name": "appservice1",
-      "apiVersion": "2021-08-15",
+      "apiVersion": "2021-08-31-preview",
       "location": "eastus",
       "tags": null,
       "properties": {
