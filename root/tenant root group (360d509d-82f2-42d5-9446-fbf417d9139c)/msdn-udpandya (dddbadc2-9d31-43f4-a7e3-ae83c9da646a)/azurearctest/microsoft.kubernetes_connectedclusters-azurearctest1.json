@@ -16,14 +16,14 @@
       "location": "eastus",
       "tags": {},
       "properties": {
-        "connectivityStatus": "Expired",
         "agentPublicKeyCertificate": "MIICCgKCAgEAu54UDjbSagbEinLuvClMxGQymTf9j2bSq81Mm93AGc864bV+G5ATEZskt3DYG261PTaxtPK9rDkABjqmQVPXa/27HGTcHPbMl/u25cv4fazMf6Nut0keJKbk4HVDwhDLk/A2B06oNLw8eIwL+ExWTC761UfmVlHtaBnhChOm6y7viiJGyBBpIlLrxAHCuYop2/MXt71/qpdFqEsMlPOqBjcAI9IsC7LouakIMISbVoc56GebF/fzkW3PfYN5bcALyF8RDtAxzd0lpeOBmLZXW2MtSstM3ruhvwW8oyOPm8kMoI97s6C1n6lZICSlUZfHRrOX2JWhchHKSk+ZSSYmAjSHyWW88nTF2F5CgnL/x1SCzz02/h9EieV+4Kp1JSLBjk075p5khQlz/1SW0J9j1huUMnopzV7/G8Jr7OFV3Z+U6CzqmsmijjlRN1HLWztoWvBtKMi977YwI+7BmxrLP7EUiGWkNm5UWv61kg3J13cksvYr7ApdggqZ2Fad3Zgi874tbim5a1Hq/q9bq8Pe6I4T4FrnTyg5h1ieBgI8qjcXmZedI8NM4RZxsckyx8dIwTFz7CmF1NK8+BPBRRu1sC9DiL8Eh9rjRq3kEW/9mJ4Dpjt7c3PP6OrLOO/6Ez+fm3o4O0Bbna16Vpw5kmCp5V6qJYgaQUvGhNejYQv4INECAwEAAQ==",
+        "agentVersion": "1.2.0",
+        "connectivityStatus": "Expired",
         "distribution": "generic",
         "infrastructure": "generic",
         "kubernetesVersion": "1.19.7",
-        "totalNodeCount": 1,
-        "agentVersion": "1.2.0",
-        "totalCoreCount": 8
+        "totalCoreCount": 8,
+        "totalNodeCount": 1
       }
     }
   ],

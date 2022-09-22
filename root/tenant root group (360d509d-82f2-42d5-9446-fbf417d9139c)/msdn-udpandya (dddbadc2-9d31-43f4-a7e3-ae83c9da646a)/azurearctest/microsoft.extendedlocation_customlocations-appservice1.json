@@ -16,14 +16,14 @@
       "location": "eastus",
       "tags": null,
       "properties": {
-        "hostType": "Kubernetes",
-        "hostResourceId": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourceGroups/AzureArcTest/providers/Microsoft.Kubernetes/connectedClusters/AzureArcTest1",
-        "namespace": "appservice1",
-        "displayName": "appservice1",
+        "authentication": {},
         "clusterExtensionIds": [
           "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourceGroups/AzureArcTest/providers/Microsoft.Kubernetes/connectedClusters/AzureArcTest1/providers/Microsoft.KubernetesConfiguration/extensions/appservice1"
         ],
-        "authentication": {}
+        "displayName": "appservice1",
+        "hostResourceId": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourceGroups/AzureArcTest/providers/Microsoft.Kubernetes/connectedClusters/AzureArcTest1",
+        "hostType": "Kubernetes",
+        "namespace": "appservice1"
       }
     }
   ],

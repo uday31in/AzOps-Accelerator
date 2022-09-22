@@ -21,10 +21,11 @@
             "10.0.0.0/16"
           ]
         },
+        "enableDdosProtection": false,
         "subnets": [
           {
-            "name": "default",
             "id": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourceGroups/network/providers/Microsoft.Network/virtualNetworks/vnet/subnets/default",
+            "name": "default",
             "properties": {
               "addressPrefix": "10.0.0.0/24",
               "delegations": [],
@@ -34,32 +35,31 @@
             "type": "Microsoft.Network/virtualNetworks/subnets"
           },
           {
-            "name": "portal",
             "id": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourceGroups/network/providers/Microsoft.Network/virtualNetworks/vnet/subnets/portal",
+            "name": "portal",
             "properties": {
               "addressPrefix": "10.0.1.0/24",
-              "serviceEndpoints": [],
               "delegations": [],
               "privateEndpointNetworkPolicies": "Enabled",
-              "privateLinkServiceNetworkPolicies": "Enabled"
+              "privateLinkServiceNetworkPolicies": "Enabled",
+              "serviceEndpoints": []
             },
             "type": "Microsoft.Network/virtualNetworks/subnets"
           },
           {
-            "name": "oob-network",
             "id": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourceGroups/network/providers/Microsoft.Network/virtualNetworks/vnet/subnets/oob-network",
+            "name": "oob-network",
             "properties": {
               "addressPrefix": "10.0.2.0/24",
-              "serviceEndpoints": [],
               "delegations": [],
               "privateEndpointNetworkPolicies": "Enabled",
-              "privateLinkServiceNetworkPolicies": "Enabled"
+              "privateLinkServiceNetworkPolicies": "Enabled",
+              "serviceEndpoints": []
             },
             "type": "Microsoft.Network/virtualNetworks/subnets"
           }
         ],
-        "virtualNetworkPeerings": [],
-        "enableDdosProtection": false
+        "virtualNetworkPeerings": []
       }
     }
   ],

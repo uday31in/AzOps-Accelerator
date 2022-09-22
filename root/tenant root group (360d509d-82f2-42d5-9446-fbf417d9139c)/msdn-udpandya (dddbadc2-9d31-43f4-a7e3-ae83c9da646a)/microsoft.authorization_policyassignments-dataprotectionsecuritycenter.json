@@ -15,14 +15,14 @@
       "apiVersion": "2022-06-01",
       "location": null,
       "properties": {
-        "Scope": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a",
-        "NotScopes": null,
-        "DisplayName": "ASC DataProtection (subscription: dddbadc2-9d31-43f4-a7e3-ae83c9da646a)",
         "Description": "This policy assignment was automatically created by Azure Security Center",
+        "DisplayName": "ASC DataProtection (subscription: dddbadc2-9d31-43f4-a7e3-ae83c9da646a)",
         "EnforcementMode": "Default",
-        "PolicyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/9cb3cc7a-b39b-4b82-bc89-e5a5d9ff7b97",
+        "NonComplianceMessages": null,
+        "NotScopes": null,
         "Parameters": null,
-        "NonComplianceMessages": null
+        "PolicyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/9cb3cc7a-b39b-4b82-bc89-e5a5d9ff7b97",
+        "Scope": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a"
       }
     }
   ],

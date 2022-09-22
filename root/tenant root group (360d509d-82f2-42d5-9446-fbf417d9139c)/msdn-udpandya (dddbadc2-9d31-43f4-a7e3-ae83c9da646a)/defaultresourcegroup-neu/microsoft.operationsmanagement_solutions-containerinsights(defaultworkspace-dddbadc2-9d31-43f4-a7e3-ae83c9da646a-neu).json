@@ -16,9 +16,9 @@
       "location": "North Europe",
       "tags": {},
       "properties": {
-        "workspaceResourceId": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourcegroups/DefaultResourceGroup-NEU/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-dddbadc2-9d31-43f4-a7e3-ae83c9da646a-NEU",
         "containedResources": [],
-        "workbookTemplates": []
+        "workbookTemplates": [],
+        "workspaceResourceId": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourcegroups/DefaultResourceGroup-NEU/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-dddbadc2-9d31-43f4-a7e3-ae83c9da646a-NEU"
       }
     }
   ],
