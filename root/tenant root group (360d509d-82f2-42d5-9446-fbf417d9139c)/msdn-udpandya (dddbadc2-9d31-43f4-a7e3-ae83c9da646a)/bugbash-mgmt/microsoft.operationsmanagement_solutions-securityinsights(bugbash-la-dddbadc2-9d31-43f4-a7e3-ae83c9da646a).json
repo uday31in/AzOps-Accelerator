@@ -16,12 +16,12 @@
       "location": "North Europe",
       "tags": {},
       "properties": {
-        "workspaceResourceId": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourcegroups/bugbash-mgmt/providers/Microsoft.OperationalInsights/workspaces/bugbash-la-dddbadc2-9d31-43f4-a7e3-ae83c9da646a",
+        "containedResources": [],
         "sku": {
           "name": "PerGB"
         },
-        "containedResources": [],
-        "workbookTemplates": []
+        "workbookTemplates": [],
+        "workspaceResourceId": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourcegroups/bugbash-mgmt/providers/Microsoft.OperationalInsights/workspaces/bugbash-la-dddbadc2-9d31-43f4-a7e3-ae83c9da646a"
       }
     }
   ],

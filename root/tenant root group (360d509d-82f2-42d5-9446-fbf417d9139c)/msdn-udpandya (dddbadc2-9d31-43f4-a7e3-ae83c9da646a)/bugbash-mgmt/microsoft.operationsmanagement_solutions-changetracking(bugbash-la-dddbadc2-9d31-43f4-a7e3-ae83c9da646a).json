@@ -16,10 +16,10 @@
       "location": "North Europe",
       "tags": {},
       "properties": {
-        "workspaceResourceId": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourcegroups/bugbash-mgmt/providers/Microsoft.OperationalInsights/workspaces/bugbash-la-dddbadc2-9d31-43f4-a7e3-ae83c9da646a",
         "containedResources": [
           "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourcegroups/bugbash-mgmt/providers/microsoft.operationalinsights/workspaces/bugbash-la-dddbadc2-9d31-43f4-a7e3-ae83c9da646a/views/ChangeTracking(bugbash-la-dddbadc2-9d31-43f4-a7e3-ae83c9da646a)"
-        ]
+        ],
+        "workspaceResourceId": "/subscriptions/dddbadc2-9d31-43f4-a7e3-ae83c9da646a/resourcegroups/bugbash-mgmt/providers/Microsoft.OperationalInsights/workspaces/bugbash-la-dddbadc2-9d31-43f4-a7e3-ae83c9da646a"
       }
     }
   ],

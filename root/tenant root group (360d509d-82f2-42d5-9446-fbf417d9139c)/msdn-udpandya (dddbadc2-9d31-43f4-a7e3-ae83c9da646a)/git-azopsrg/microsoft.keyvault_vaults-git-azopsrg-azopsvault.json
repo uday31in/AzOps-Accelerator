@@ -16,17 +16,17 @@
       "location": "northeurope",
       "tags": {},
       "properties": {
+        "accessPolicies": [],
+        "enableRbacAuthorization": true,
+        "enableSoftDelete": true,
+        "enabledForDeployment": false,
+        "enabledForTemplateDeployment": true,
+        "publicNetworkAccess": "Enabled",
         "sku": {
           "family": "A",
           "name": "standard"
         },
-        "tenantId": "[subscription().tenantId]",
-        "accessPolicies": [],
-        "enabledForDeployment": false,
-        "enabledForTemplateDeployment": true,
-        "enableSoftDelete": true,
-        "enableRbacAuthorization": true,
-        "publicNetworkAccess": "Enabled"
+        "tenantId": "[subscription().tenantId]"
       }
     }
   ],

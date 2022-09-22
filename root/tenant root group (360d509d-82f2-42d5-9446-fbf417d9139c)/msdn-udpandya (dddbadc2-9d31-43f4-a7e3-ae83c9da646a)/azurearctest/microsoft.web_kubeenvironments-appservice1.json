@@ -16,28 +16,28 @@
       "location": "East US",
       "tags": {},
       "properties": {
-        "type": null,
-        "environmentType": null,
-        "extendedLocation": null,
-        "deploymentErrors": "Error when checking initialize status of K8SE stamp with kubectl Error running kubectl.exe get pods -n appservice1 -o=jsonpath=\"{range.items[*]}{.metadata.name},{.status.phase} \"\r\noutput: \r\n\r\nerror: Error from server (InternalError): an error on the server (\"{\\\"apiVersion\\\":\\\"v1\\\",\\\"code\\\":502,\\\"kind\\\":\\\"Status\\\",\\\"message\\\":\\\"Cluster connect agent is not running to accept requests\\\",\\\"reason\\\":\\\"BadGateway\\\",\\\"status\\\":\\\"Failure\\\"}\") has prevented the request from succeeding (get pods)\r\n\r\n",
-        "internalLoadBalancerEnabled": false,
-        "defaultDomain": "appservice1-b7up9klvum43.eastus.k4apps.io",
-        "staticIp": "82.16.232.158",
+        "aksResourceID": null,
+        "appLogsConfiguration": null,
         "arcConfiguration": {
-          "artifactsStorageType": "NetworkFileSystem",
+          "artifactStorageAccessMode": null,
           "artifactStorageClassName": "default",
           "artifactStorageMountPath": null,
           "artifactStorageNodeName": null,
-          "artifactStorageAccessMode": null,
+          "artifactsStorageType": "NetworkFileSystem",
           "frontEndServiceConfiguration": {
             "kind": "LoadBalancer"
           },
           "kubeConfig": null
         },
-        "appLogsConfiguration": null,
-        "workerAppsConfiguration": null,
         "containerAppsConfiguration": null,
-        "aksResourceID": null
+        "defaultDomain": "appservice1-b7up9klvum43.eastus.k4apps.io",
+        "deploymentErrors": "Error when checking initialize status of K8SE stamp with kubectl Error running kubectl.exe get pods -n appservice1 -o=jsonpath=\"{range.items[*]}{.metadata.name},{.status.phase} \"\r\noutput: \r\n\r\nerror: Error from server (InternalError): an error on the server (\"{\\\"apiVersion\\\":\\\"v1\\\",\\\"code\\\":502,\\\"kind\\\":\\\"Status\\\",\\\"message\\\":\\\"Cluster connect agent is not running to accept requests\\\",\\\"reason\\\":\\\"BadGateway\\\",\\\"status\\\":\\\"Failure\\\"}\") has prevented the request from succeeding (get pods)\r\n\r\n",
+        "environmentType": null,
+        "extendedLocation": null,
+        "internalLoadBalancerEnabled": false,
+        "staticIp": "82.16.232.158",
+        "type": null,
+        "workerAppsConfiguration": null
       }
     }
   ],
